@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Epicture</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="login">Login</string>
+    <string name="textview">TextView</string>
+    <string name="title_activity_home_vc">HomeVc</string>
+
+    <string name="nav_home">Home</string>
+    <string name="nav_favorite">Favoris</string>
+    <string name="nav_search">Search</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="button">Button</string>
+    <string name="upload">Upload</string>
+    <string name="gallery">Gallery</string>
+    <string name="name">Name</string>
+    <string name="todo">TODO</string>
+    <string name="batiste_c_est_une_salope">Batiste c est une salope</string>
+    <string name="description">Description</string>
+    <string name="Title">title</string>
+
+</resources>

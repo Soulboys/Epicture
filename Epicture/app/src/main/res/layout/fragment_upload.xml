@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/Black3"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".UploadFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="743dp">
+
+        <Button
+            android:id="@+id/upload"
+            android:layout_width="220dp"
+            android:layout_height="54dp"
+            android:text="@string/upload"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.915" />
+
+        <Button
+            android:id="@+id/gallery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gallery"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.811" />
+
+        <ImageView
+            android:id="@+id/Image"
+            android:layout_width="354dp"
+            android:layout_height="318dp"
+            android:contentDescription="@string/todo"
+            android:src="@mipmap/ic_unknown"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.089" />
+
+        <EditText
+            android:id="@+id/title"
+
+            style="@style/AppTheme.RoundedCornerMaterialButton"
+            android:layout_width="183dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="28dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/Title"
+            android:textColor="#FFFFFF"
+            app:layout_constraintBottom_toTopOf="@+id/gallery"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Image"
+            app:layout_constraintVertical_bias="0.0"
+            tools:text="Title" />
+
+        <EditText
+            android:id="@+id/description"
+            style="@style/AppTheme.RoundedCornerMaterialButton"
+            android:layout_width="278dp"
+            android:layout_height="76dp"
+            android:layout_marginTop="28dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:lineSpacingExtra="8sp"
+            android:text="@string/description"
+            android:textColor="#FBFBFB"
+            app:layout_constraintBottom_toTopOf="@+id/gallery"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Image"
+            app:layout_constraintVertical_bias="0.784"
+            tools:text="@string/description" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
